@@ -1,31 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Typography</title>
-  </head>
-  <body>
-    <!-- Font Family -->
 
-    <!-- Font Size -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          sans: ['ui-sans-serif', 'system-ui'],
+          serif: ['"Bungee Tint"', 'Georgia'],
+          mono: ['ui-monospace', 'SFMono-Regular'],
+        }
+      }
+    }
+  </script>
+  <title>Typography</title>
+</head>
 
-    <!-- Font Weight -->
+<body>
+  <!-- Font Family -->
+  <div class="font-sans">Tailwind is awesome</div>
+  <div class="font-serif">Tailwind is awesome</div>
+  <div class="font-mono">Tailwind is awesome</div>
+  <!-- Font Size -->
+  <div class="text-xs">Tailwind is awesome</div>
+  <div class="text-xm">Tailwind is awesome</div>
+  <div class="text-sm">Tailwind is awesome</div>
+  <div class="text-base">Tailwind is awesome</div>
+  <div class="text-lg">Tailwind is awesome</div>
+  <div class="text-xl">Tailwind is awesome</div>
+  <div class="text-2xl">Tailwind is awesome</div>
+  <div class="text-3xl">Tailwind is awesome</div>
+  <!-- Font Weight -->
+  <div class="font-light">Tailwind is awesome</div>
+  <div class="font-normal">Tailwind is awesome</div>
+  <div class="font-medium">Tailwind is awesome</div>
+  <div class="font-semi-bold">Tailwind is awesome</div>
+  <div class="font-bold">Tailwind is awesome</div>
+  <!-- Letter Spacing -->
+  <div class="tracking-tight">Tracking Spacing</div>
+  <div class="tracking-normal">Tracking Spacing</div>
+  <div class="tracking-wide">Tracking Spacing</div>
+  <!-- Text Alignment -->
+  <div class="text-left">Tracking Spacing</div>
+  <div class="text-center">Tracking Spacing</div>
+  <div class="text-right">Tracking Spacing</div>
+  <!-- Text Decoration -->
+  <div class="underline decoration-4 blue-400">Decor EL</div>
+  <div class="underline decoration-double">Underline</div>
+  <div class="underline decoration-dashed">Underline</div>
+  <div class="underline decoration-wavy">Underline</div>
 
-    <!-- Letter Spacing -->
+  <div class="underline decoration-4 blue-400 underline-offset-8">Decor EL</div>
+  <!-- Decoration Style -->
 
-    <!-- Text Alignment -->
+  <!-- Decoration Offset -->
 
-    <!-- Text Decoration -->
+  <!-- Text Transform -->
+  <p class="normal-case">Tailwind is awesome</p>
+  <p class="uppercase">Tailwind is awesome</p>
+  <p class="lowercase">Tailwind is awesome</p>
+</body>
 
-    <!-- Decoration Style -->
-
-    <!-- Decoration Offset -->
-
-    <!-- Text Transform -->
-  </body>
 </html>
 
 <!-- Font Family
